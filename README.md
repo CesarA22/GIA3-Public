@@ -105,5 +105,5 @@ function exibirSugestoes(sugestoes) {
 
 4. O sistema responde naturalmente a saudações e agradecimentos como "olá", "obrigado", etc.
 
-5. Use o endpoint `/status` para verificar se a API está funcionando corretamente
-   Pode ser util para implementar um visualizador para saber se a GIA está online ou não.
+5. Use o endpoint `/status` para verificar se a API está funcionando corretamente.
+   - Pode ser util para implementar um visualizador para saber se a GIA está online ou não.
