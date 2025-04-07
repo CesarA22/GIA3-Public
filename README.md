@@ -87,17 +87,6 @@ function exibirSugestoes(sugestoes) {
 }
 ```
 
-### Rotas de Diagnóstico
-
-Rotas úteis para testar cada tipo de consulta:
-
-- **GET `/test/material/{material}`**: Busca por material (ex: `/test/material/inox`)
-- **GET `/test/cooling/{has_cooling}`**: Busca por refrigeração (ex: `/test/cooling/true`)
-- **GET `/test/hole-type/{hole_type}`**: Busca por tipo de furo (ex: `/test/hole-type/Cego`)
-- **GET `/test/application/{material}`**: Busca por aplicação (ex: `/test/application/aluminio`)
-- **GET `/test/sort/{sort_code}`**: Busca por código do artigo (ex: `/test/sort/391`)
-- **GET `/test/query/{encoded_query}`**: Qualquer consulta via URL (ex: `/test/query/ferramentas%20para%20rosquear`)
-
 ### Observações Importantes
 
 1. As respostas são formatadas em Markdown e devem ser renderizadas como tal no frontend
@@ -117,3 +106,4 @@ Rotas úteis para testar cada tipo de consulta:
 4. O sistema responde naturalmente a saudações e agradecimentos como "olá", "obrigado", etc.
 
 5. Use o endpoint `/status` para verificar se a API está funcionando corretamente
+   Pode ser util para implementar um visualizador para saber se a GIA está online ou não.
