@@ -107,3 +107,21 @@ function exibirSugestoes(sugestoes) {
 
 5. Use o endpoint `/status` para verificar se a API está funcionando corretamente.
    - Pode ser util para implementar um visualizador para saber se a GIA está online ou não.
+  
+
+### Cliente para Linha de Comando (Windows)
+
+Para facilitar o uso da API diretamente no Windows, disponibilizamos um script PowerShell que funciona como um cliente de linha de comando.
+
+1. Baixe o arquivo gia3.ps1 do repositório
+2. Abra o PowerShell no Windows (busque "PowerShell" no menu Iniciar)
+3. Navegue até a pasta onde salvou o arquivo usando o comando cd
+4. Execute:
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+5. Inicie o cliente com:
+```
+.\gia-chat.ps1
+```
