@@ -120,6 +120,7 @@ Para facilitar o uso da API diretamente no Windows, disponibilizamos um script P
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+Após isso, confirme digitando "S"
 
 5. Inicie o cliente com:
 ```
