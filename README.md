@@ -123,5 +123,5 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 5. Inicie o cliente com:
 ```
-.\gia-chat.ps1
+.\gia3.ps1
 ```
